@@ -1,0 +1,4 @@
+"use client";
+import { motion } from "framer-motion";
+import { cn } from "@/lib/utils";
+export function OSWindow({id,title,children,className}:{id?:string;title:string;children:React.ReactNode;className?:string}){return <motion.section id={id} initial={{opacity:0,y:24}} whileInView={{opacity:1,y:0}} viewport={{once:true,margin:"-80px"}} transition={{duration:.55,ease:[.22,1,.36,1]}} className={cn("overflow-hidden rounded-[1.75rem] border border-border bg-surface/78 shadow-2xl shadow-black/20 backdrop-blur-xl",className)}><div className="flex h-12 items-center justify-between border-b border-border px-4"><div className="flex gap-2"><i className="h-3 w-3 rounded-full bg-[#ff5f57]"/><i className="h-3 w-3 rounded-full bg-[#ffbd2e]"/><i className="h-3 w-3 rounded-full bg-[#28c840]"/></div><p className="text-xs text-muted">{title}</p><div className="w-14"/></div><div className="p-5 sm:p-7 lg:p-9">{children}</div></motion.section>}
