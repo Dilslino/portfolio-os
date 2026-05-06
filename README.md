@@ -8,12 +8,6 @@ Live demo:
 
 https://dilslino.github.io/portfolio-os/
 
-## Preview
-
-> Tambahkan screenshot final ke `public/preview.png` setelah mengambil capture website.
-
-![Portfolio OS preview](./public/preview.png)
-
 ## Features
 
 - Next.js App Router + TypeScript
