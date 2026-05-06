@@ -1,7 +1,7 @@
 export type Project = { slug:string; title:string; year:string; overview:string; problem:string; solution:string; stack:string[]; impact:string[]; screenshots:string[]; github:string; demo:string; featured?:boolean };
 
 export const portfolio = {
-  name: "Raka Mahendra",
+  name: "xDil",
   role: "Senior Frontend Engineer",
   location: "Jakarta, Indonesia",
   availability: "Terbuka untuk kerja remote selektif",
